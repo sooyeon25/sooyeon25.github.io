@@ -19,7 +19,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  /* background: #040404 url("../img/bg.jpg") top right no-repeat; */
+  background: #040404;
   background-size: cover;
   left: 0;
   right: 0;
@@ -50,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -342,7 +343,7 @@ section {
   top: 140px;
   bottom: 100%;
   opacity: 0;
-  transition: ease-in-out 0.4s;
+  /* transition: ease-in-out 0.4s; */
   z-index: 2;
 }
 
@@ -621,6 +622,12 @@ section .container {
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
+}
+
+.testimonials .research_paper_list {
+  /* font-size: 2rem; */
+  /* color:rgba(0, 0, 0, 0.6); */
+  font-family: sans-serif;
 }
 
 /*--------------------------------------------------------------
